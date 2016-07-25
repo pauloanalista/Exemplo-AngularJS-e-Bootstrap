@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" ng-app="globalBusApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-Control: max-age=3600, must-revalidate"/>
+    <meta name="description" content="GlobalBus">
+    <title>GlobalBus</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="_img/favicon.ico"/>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="196x196" href="https://5517.firebaseapp.com/assets/images/icon-touch.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <link rel="apple-touch-icon" href="https://5517.firebaseapp.com/assets/images/icon-touch.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="GlobalBus">
+
+    <link rel="stylesheet" href="../bower_components/bootswatch/paper/bootstrap.css"/>
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="_css/styles.css"/>
+    
+    <!--<link rel="stylesheet" href="../custom_components/manual_packages/supersized/supersized.core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../custom_components/manual_packages/supersized/theme/supersized.shutter.css" type="text/css" media="screen" />-->
+		
+		
+</head>
+<body>
+
+<!--<div ng-include="'pages/shared/header.html'"></div>-->
+<br/><br/>
+
+<div class="container" ng-view></div>
+<br/><br/>
+
+<script src="../bower_components/jquery/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+
+
+<!--Pacotes instalados manualmente-->
+
+
+<script src="app.js"></script>
+<script src="config.js"></script>
+<script src="routes.js"></script>
+
+<script src="controllers/login-controller.js"></script>
+
+</body>
+</html>

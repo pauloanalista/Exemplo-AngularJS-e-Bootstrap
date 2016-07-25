@@ -1,0 +1,39 @@
+<!--Componente usado na tela de login para o fundo mexer-->
+<script src="../bower_components/jquery-backstretch/jquery.backstretch.min.js"></script>
+
+<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 text-center">
+    <h2>MeuSistema</h2>
+    <h5>Sistema de monitoramento de xpto</h5>
+    <div class="panel panel-default">
+        <div class="panel-heading">Dados para autenticação</div>
+        <div class="panel-body">
+            <div class="row">   
+                <div class="input-group col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                    <input type="text" class="form-control" placeholder="Usuário" aria-describedby="basic-addon1">
+                </div>    
+            </div>
+            <br>
+            <div class="row">   
+                <div class="input-group col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                    <input type="text" class="form-control" placeholder="Senha" aria-describedby="basic-addon1">
+                </div>    
+            </div>
+            <br>
+            <button class="btn btn-primary btn-lg btn-block" ng-click="vm.autenticarUsuario()">Entrar</button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(function($){
+        $.backstretch([
+                        "_img/login/1.jpg",
+                        "_img/login/2.jpg",
+                        "_img/login/3.jpg",
+                        "_img/login/4.jpg"
+        ], 
+        {
+            duration: 3000, 
+            fade: 750
+        });			
+	});		    
+</script>

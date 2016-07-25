@@ -1,0 +1,25 @@
+{
+  "name": "loja",
+  "authors": [
+    "Paulo Rogério Martins Marques <paulo.analista@outlook.com>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "font-awesome": "^4.6.3",
+    "jquery-backstretch": "backstretch#^2.0.4",
+    "bootswatch": "^3.3.6+2"
+  }
+}
